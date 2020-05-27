@@ -1,0 +1,9 @@
+.caption {
+    background: #fff;
+    padding: 30px;
+    margin: 0 0 40px 0;   
+    width: 100%;
+    max-width: 650px;
+    float: right;
+    border: 1px solid #ddd;
+}
