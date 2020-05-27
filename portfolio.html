@@ -18,33 +18,37 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <!--expandable navbar in dark color scheme from bootsrtap-->
-    <a class="navbar-brand" href="#">Chris Schramm</a>
-    <!--uses navbar-brand as spot for person's name-->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
-      <!--makes navbar toggle-able collapsable and makes navbarMenu for links
-            inside of collapsed navbar-->
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!--button for "hamburger"-->
-    <div class="collapse navbar-collapse" id="navbarMenu">
-      <!--makes links in responsive navbar active and connected-->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-
-      </ul>
+  <body>
+    <div class="navbar-dark bg-dark">
+      <div class="container">
+        <nav class="navbar navbar-expand-sm mr-auto">
+          <!--expandable navbar in dark color scheme from bootsrtap-->
+          <a class="navbar-brand" href="#">Chris Schramm</a>
+          <!--uses navbar-brand as spot for person's name-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+            <!--makes navbar toggle-able collapsable and makes navbarMenu for links
+              inside of collapsed navbar-->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <!--makes links in responsive navbar active and connected-->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="navbarMenu">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="navbarMenu">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="navbarMenu">Contact</a>
+              </li>
+  
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
-  </nav>
-
+  
   <div style="height: 100px; ">
     <div class="mh-100" style="width: 100px; height: 200px; rgba(0,0,255,0.1);"></div>
   </div>
